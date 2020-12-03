@@ -1,3 +1,10 @@
 spring:
   profiles:
-    active: dev  # 指定配置文件
+    active: prod  # 指定配置文件
+  application:
+     name: springcloud-foresee
+
+info:
+  app.name: springcloud-foresee
+  company.name: www.foresee.com
+
